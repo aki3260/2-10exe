@@ -33,6 +33,7 @@ main{
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
+  padding-top: 50px;
 }
 
 .step-img2{
@@ -40,12 +41,15 @@ main{
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .step-img3{
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
+  padding-bottom: 50px;
 }
 
 .step-num{
@@ -59,4 +63,19 @@ main{
 
 .title{
   margin: 15px 0 5px;
+}
+@media screen and (max-width: 768px){
+  main{
+    width: 90%;
+  }
+
+  .step-box{
+    width: 100%;
+    margin-top: 20px;
+    float: none;
+  }
+  .step-box:last-child{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }
